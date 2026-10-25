@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyTorch / ML artifacts
+*.pt
+*.pth
+*.ckpt
+
+# experiment noise
+*.log
+
+# cluster data
+functions/experiments/**/*.pkl
+functions/logs/
+functions/__pycache__/
+functions/results/
+results/
+*.pyc
+outcmaes/
+slurm-*.out
+*.sh.bak
+Miniforge3-Linux-x86_64.sh
+
+#External things like the patch for yahpo
+external/
+
+#temp data
+temp/
+
+.idea/
+outcmaes/.idea/
+outcmaes/
